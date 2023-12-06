@@ -1,30 +1,38 @@
-# Boilerplate: React with Express and Vite
+# <img src="public/images/logo.png" width="50"> BNANAS
 
-This is a starter project that uses Vite to bundle a React app and Express to serve it in production. Express is used in development to serve an API server.
+A functional e-commerce website where users can purchase boutique bananas while critiquing capitalism and designer markets. See project deployed at ...
 
-Vite React App: [http://localhost:5173](http://localhost:5173)
-Express API Server: [http://localhost:3000](http://localhost:3000)
+![](public/images/Bnana%20Project.gif)
 
-Requests to `http://localhost:5173/api` are proxied to `http://localhost:3000/api`.
+## Features
 
-## Setup
+- Users can authenticate by logging in.
+- Users can add or remove items for purchase.
+- Users can add to cart and adjust order in cart.
+- Users have shipping options and ability to leave notes for delivery. 
+- Users can contact the business by filling out an online form.
+- Effectively showcase the business and what it has to offer.
 
-### Installation
+## Project Purpose
 
-To use, consider these steps:
+- The goal was to produce a functional website in less than a week with the purpose of showcasing and presenting both front and back-end of the project to an audience of industry professionals, family and friends.
 
-- Fork this repo
-- Rename your repo according to the app you're building
+- A multi day project that is developed to mimic the industry standards of Full Stack Development.
 
-```sh
-git clone https://github.com/[your-account]/[your-app].git
-cd [your-app] && npm i
-```
+- Make use of what we had learned in our softer skills in terms of mindfulness, team check-ins and staying well organised.
 
-To start the development server with a watcher that rebuilds your code, run `npm run dev`.
+## Skills and Technologies Used
 
-Additional components should be placed in `client/components`.
+- React
+- HTML/CSS
+- JavaScript/TypeScript
+- Figma
+- Sqlite3
+- HTTP Requests and Responses
+- TDD
+- Authentication
+- GitHub
 
----
+### 💻 Love teaming up on exciting projects. Let's create something cool together.
 
-[Provide feedback on this repo](https://docs.google.com/forms/d/e/1FAIpQLSfw4FGdWkLwMLlUaNQ8FtP2CTJdGDUv6Xoxrh19zIrJSkvT4Q/viewform?usp=pp_url&entry.1958421517=boilerplate-react-api)
+Thanks, from @Team-Bnanas (Yes this is spelled correctly)
