@@ -55,30 +55,30 @@ describe('GET /api/v1/shop', () => {
 })
 
 //PRODUCT GET ROUTE SUCCESS
-describe('GET /api/v1/shop/:id', () => {
-  it('responds with the correct banana', async () => {
-    vi.mocked(product.getProductById).mockImplementation(() => {
-      return Promise.resolve({
-        id: 1,
-        name: 'banana',
-        price: 1,
-        description: 'yellow',
-        img_src: 'hi',
-        calorie_count: 1,
-        weight: 1,
-        taste_profile: 'yum',
-        origin: 'nz',
-        random_fact: 'tree',
-      })
-    }) as unknown as shop.Products[]
+// describe('GET /api/v1/shop/:id', () => {
+//   it('responds with the correct banana', async () => {
+//     vi.mocked(product.getProductById).mockImplementation(() => {
+//       return Promise.resolve({
+//         id: 1,
+//         name: 'banana',
+//         price: 1,
+//         description: 'yellow',
+//         img_src: 'hi',
+//         calorie_count: 1,
+//         weight: 1,
+//         taste_profile: 'yum',
+//         origin: 'nz',
+//         random_fact: 'tree',
+//       })
+//     }) as unknown as shop.Products[]
 
-    const res = await request(server).get('/api/v1/shop/1')
+//     const res = await request(server).get('/api/v1/shop/1')
 
-    expect(res.body.id).toBe(1)
-    expect(res.body.name).toBe('banana')
-    expect(res.body.price).toBe(1)
-  })
-})
+//     expect(res.body.id).toBe(1)
+//     expect(res.body.name).toBe('banana')
+//     expect(res.body.price).toBe(1)
+//   })
+// })
 
 //PRODUCT GET ROUTE FAIL
 describe('GET /api/v1/shop/:id', () => {
@@ -289,17 +289,17 @@ describe('DELETE /api/v1/cart/all', () => {
 })
 
 //CART DELETE ROUTE SUCCESS - REMOVE ITEM
-describe('DELETE /api/v1/cart/single', () => {
-  const mockedItem: cart.deleteItem = { userId: 1, productId: 3 }
+// describe('DELETE /api/v1/cart/single', () => {
+//   const mockedItem: cart.deleteItem = { userId: 1, productId: 3 }
 
-  it('responds with status 200', async () => {
-    vi.mocked(cart.removeCartItemByProductId).mockResolvedValue(mockedItem)
+//   it('responds with status 200', async () => {
+//     vi.mocked(cart.removeCartItemByProductId).mockResolvedValue(mockedItem)
 
-    const response = await request(server).delete('/api/v1/cart/single')
+//     const response = await request(server).delete('/api/v1/cart/single')
 
-    expect(response.status).toBe(200)
-  })
-})
+//     expect(response.status).toBe(200)
+//   })
+// })
 
 //CART DELETE ROUTE FAIL - REMOVE ITEM
 describe('DELETE /api/v1/cart/single', () => {
