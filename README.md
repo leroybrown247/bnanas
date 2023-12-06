@@ -1,6 +1,6 @@
 # <img src="public/images/logo.png" width="50"> BNANAS
 
-A functional e-commerce website where users can purchase boutique bananas while critiquing capitalism and designer markets. See project deployed at ...
+A functional e-commerce website where users can purchase boutique bananas while critiquing capitalism and designer markets.
 
 ![](public/images/Bnana%20Project.gif)
 
