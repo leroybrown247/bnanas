@@ -33,6 +33,9 @@ A functional e-commerce website where users can purchase boutique bananas while 
 - Authentication
 - GitHub
 
+## Team Roles
+Quinn worked on the database, Adam and Leroy worked together on the visual layer, Daniel and Rigelle worked together on the front-end layer which connects the database to the visual layer.
+
 ### 💻 Love teaming up on exciting projects. Let's create something cool together.
 
 Thanks, from @Team-Bnanas (Yes this is spelled correctly)
